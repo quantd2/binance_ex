@@ -1,0 +1,38 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "X-MBX-APIKEY": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://fapi.binance.com/fapi/v1/openOrders?timestamp=1586855589467&signature=***"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"orderId\":2634617095,\"symbol\":\"BTCUSDT\",\"status\":\"NEW\",\"clientOrderId\":\"web_argH9snTII2DpZQ1lkzD\",\"price\":\"9000\",\"avgPrice\":\"0.00000\",\"origQty\":\"0.001\",\"executedQty\":\"0\",\"cumQuote\":\"0\",\"timeInForce\":\"GTC\",\"type\":\"LIMIT\",\"reduceOnly\":false,\"side\":\"SELL\",\"positionSide\":\"BOTH\",\"stopPrice\":\"0\",\"workingType\":\"CONTRACT_PRICE\",\"origType\":\"LIMIT\",\"time\":1586855389188,\"updateTime\":1586855589773},{\"orderId\":2634612040,\"symbol\":\"BTCUSDT\",\"status\":\"NEW\",\"clientOrderId\":\"web_zyRe8mQWmV2GOoLxdSYr\",\"price\":\"8786.98\",\"avgPrice\":\"0.00000\",\"origQty\":\"0.001\",\"executedQty\":\"0\",\"cumQuote\":\"0\",\"timeInForce\":\"GTC\",\"type\":\"LIMIT\",\"reduceOnly\":false,\"side\":\"SELL\",\"positionSide\":\"BOTH\",\"stopPrice\":\"0\",\"workingType\":\"CONTRACT_PRICE\",\"origType\":\"LIMIT\",\"time\":1586855377085,\"updateTime\":1586855589773}]",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "786",
+        "Connection": "keep-alive",
+        "Date": "Tue, 14 Apr 2020 09:13:09 GMT",
+        "Server": "Tengine",
+        "Vary": "Accept-Encoding",
+        "X-MBX-USED-WEIGHT-1M": "40",
+        "x-response-time": "0ms",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "*,clienttype,Content-Type,lang,x-ui-request-trace",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 0cfddac687b0e42e0853cfa412519154.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "HKG54-C1",
+        "X-Amz-Cf-Id": "yZ6Cyt-e6GQ78NOuCQR83cPs-k-26jrEuILD_RktXJZ89G09Fp9Prw=="
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

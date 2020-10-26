@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "body": "price=11500&quantity=0.001&side=BUY&symbol=BTCUSDT&timeInForce=GTC&timestamp=1596776742604&type=LIMIT&signature=***",
+      "headers": {
+        "X-MBX-APIKEY": "***",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.binance.com/sapi/v1/margin/order"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"symbol\":\"BTCUSDT\",\"orderId\":2868628287,\"clientOrderId\":\"7LUhU148oDLyZBEekAVrMu\",\"transactTime\":1596776743032,\"price\":\"11500.00000000\",\"origQty\":\"0.00100000\",\"executedQty\":\"0.00000000\",\"cummulativeQuoteQty\":\"0.00000000\",\"status\":\"NEW\",\"timeInForce\":\"GTC\",\"type\":\"LIMIT\",\"side\":\"BUY\",\"fills\":[],\"isIsolated\":false}",
+      "headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Content-Length": "314",
+        "Connection": "keep-alive",
+        "Date": "Fri, 07 Aug 2020 05:05:43 GMT",
+        "Server": "nginx",
+        "Vary": "Accept-Encoding",
+        "Set-Cookie": "JSESSIONID=7DB015C339F17F110A6932E811CD247D; Path=/; HttpOnly",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "default-src 'self'",
+        "X-Content-Security-Policy": "default-src 'self'",
+        "X-WebKit-CSP": "default-src 'self'",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 f107b24da261bbf401e3e585531086ef.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "KUL50-C1",
+        "X-Amz-Cf-Id": "awLY-ngju7L2GNpg665i5HhsmyohVu5mDQNZArAVMPvzr16sZiFfkg=="
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "X-MBX-APIKEY": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.binance.com/sapi/v1/margin/priceIndex?symbol=BTCUSDT&timestamp=1595227974736&signature=***"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"symbol\":\"BTCUSDT\",\"price\":\"9180.25954545\",\"calcTime\":1595227975000}",
+      "headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Content-Length": "69",
+        "Connection": "keep-alive",
+        "Date": "Mon, 20 Jul 2020 06:52:55 GMT",
+        "Server": "nginx",
+        "Set-Cookie": "JSESSIONID=267003B3870B98A77C0022FE5A44BFBA; Path=/; HttpOnly",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "default-src 'self'",
+        "X-Content-Security-Policy": "default-src 'self'",
+        "X-WebKit-CSP": "default-src 'self'",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 e51142b132a2a14667512e908fde99e6.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "HKG62-C2",
+        "X-Amz-Cf-Id": "hmsBrsdQUR9cqiZMxlbEBUXMCLUhDNdk0ptjy8yE1RdkkQtUu8K6yg=="
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

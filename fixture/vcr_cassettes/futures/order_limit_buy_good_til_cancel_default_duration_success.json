@@ -1,0 +1,41 @@
+[
+  {
+    "request": {
+      "body": "price=8000&quantity=0.001&side=BUY&symbol=BTCUSDT&timeInForce=GTC&timestamp=1586855766035&type=LIMIT&signature=***",
+      "headers": {
+        "X-MBX-APIKEY": "***",
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://fapi.binance.com/fapi/v1/order"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"orderId\":2634722102,\"symbol\":\"BTCUSDT\",\"status\":\"NEW\",\"clientOrderId\":\"e7BFySSxfObXahpsHJirjC\",\"price\":\"8000\",\"avgPrice\":\"0.00000\",\"origQty\":\"0.001\",\"executedQty\":\"0\",\"cumQty\":\"0\",\"cumQuote\":\"0\",\"timeInForce\":\"GTC\",\"type\":\"LIMIT\",\"reduceOnly\":false,\"side\":\"BUY\",\"positionSide\":\"BOTH\",\"stopPrice\":\"0\",\"workingType\":\"CONTRACT_PRICE\",\"origType\":\"LIMIT\",\"updateTime\":1586855766315}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "379",
+        "Connection": "keep-alive",
+        "Date": "Tue, 14 Apr 2020 09:16:06 GMT",
+        "Server": "Tengine",
+        "Vary": "Accept-Encoding",
+        "X-MBX-USED-WEIGHT-1M": "0",
+        "X-MBX-ORDER-COUNT-1M": "1",
+        "x-response-time": "4ms",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Xss-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "origin-when-cross-origin",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 e74ae1ee8d87215b42aa8a1c59137a49.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "HKG54-C1",
+        "X-Amz-Cf-Id": "_VfagvXLUSRU5hFRMgDyKshtEM2h45lp3GznU8bihbkDCgZ5KlpMvg=="
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
